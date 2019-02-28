@@ -77,6 +77,8 @@ public class Main extends HttpServlet {
 			postMutterLogic.execute(mutter, mutterList);
 
 			application.setAttribute("mutterlist", mutterList);
+		} else {
+			request.setAttribute("errorMsg", "つぶやきが入力されていません");
 		}
 
 		RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/jsp/main.jsp");
