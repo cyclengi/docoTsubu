@@ -28,9 +28,9 @@ String errorMsg = (String)request.getAttribute("errorMsg");
 <a href="/docoTsubu/logout">ログアウト</a>
 </p>
 
-<p><a href="/docoTsubu/Main">更新</a></p>
+<p><a href="/docoTsubu/servlet/Main">更新</a></p>
 
-<form action="/docoTsubu/Main" method="post">
+<form action="/docoTsubu/servlet/Main" method="post">
 <input type="text" name="text">
 <input type="submit" value="つぶやく">
 </form>

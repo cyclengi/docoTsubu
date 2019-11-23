@@ -20,7 +20,7 @@ import model.User;
 /**
  * Servlet implementation class Main
  */
-@WebServlet("/Main")
+@WebServlet("/servlet/Main")
 public class Main extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
