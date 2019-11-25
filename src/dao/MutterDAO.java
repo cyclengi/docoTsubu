@@ -14,7 +14,7 @@ import model.Mutter;
 public class MutterDAO {
 
 	private final String DRIVER_NAME = "org.h2.Driver";
-	private final String JDBC_URL = "jdbc:h2:file:c:/data/docoTsubu";
+	private final String JDBC_URL = "jdbc:h2:file:C:/data/docoTsubu";
 	private final String DB_USER = "sa";
 	private final String DB_PASS = "1234";
 

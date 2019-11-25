@@ -25,7 +25,7 @@ String errorMsg = (String)request.getAttribute("errorMsg");
 </p>
 
 <p>
-<a href="/docoTsubu/logout">ログアウト</a>
+<a href="/docoTsubu/servlet/Logout">ログアウト</a>
 </p>
 
 <p><a href="/docoTsubu/servlet/Main">更新</a></p>
